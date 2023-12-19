@@ -7,5 +7,7 @@
 <body>
     <h1>Thymeleaf Page</h1>
     <p><a th:href="@{/nextpage/{aid}(aid=${id})}">リンク</a></p>
+    <p><a th:href="@{/nextpage/{aid}(aid=${param.id[0]})}">リンク2</a></p>
+    <p><a th:href="@{/nextpage/(id=${param.id[0]})}">リンク3</a></p>
 </body>
 </html>
