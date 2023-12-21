@@ -1,12 +1,16 @@
 package com.techacademy;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+@Data
+@AllArgsConstructor
 public class Member {
     private int id;
     private String name;
     private String gender;
     private int age;
-
+/*
     public Member(int id, String name, String gender, int age) {
         this.id = id;
         this.name = name;
@@ -37,5 +41,5 @@ public class Member {
     public void setAge(int age) {
         this.age =age;
     }
-
+*/
 }
