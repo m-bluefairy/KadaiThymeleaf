@@ -15,5 +15,4 @@ public class OutputController {
         // output.htmlに画面遷移
         return "output";
     }
-
 }
